@@ -62,9 +62,7 @@ def print_jour():
     Nbisextile -= (an - siecle_ref)//100
     Nbisextile += (an - siecle_ref)//400
   else:
-    print(1)
     Nbisextile = -((an_bisextile_ref - an)//4 + 1)
-    print(Nbisextile)
     Nbisextile += (siecle_ref - an)//100
     Nbisextile -= (siecle_ref - an)//400
     
